@@ -28,7 +28,8 @@ module.exports = {
         inverted: withOpacity("--color-fill"),
         white:withOpacity("--color-white"),
         daypurp:withOpacity("--color-daypurp"),
-        slate:withOpacity("--color-slate")
+        slate:withOpacity("--color-slate"),
+        soft:withOpacity("--color-text-soft")
       },
     },
     backgroundColor: {
