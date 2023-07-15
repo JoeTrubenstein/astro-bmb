@@ -1,0 +1,69 @@
+---
+import { SITE } from "@config";
+import Layout from "@layouts/Layout.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+// import LinkButton from "@components/LinkButton.astro";
+import Contactform from "@components/contactform.astro";
+---
+
+<Layout title={`Contact | ${SITE.title}`}>
+  <Header />
+
+  <main id="main-content">
+    <div class="main-wrapper">
+      <h1 aria-label="404 Not Found">Contact me</h1>
+      <p class="text-center">Set up a free discovery session today.</p>
+
+
+    <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
+      <div>
+        <h2 class="font-medium text-2xl text-gray-800">Bald Man Brands</h2>
+        <p class="text-lg leading-relaxed text-slate-500 mt-3">
+          Find out what I can do for you
+        </p>
+        <div class="mt-5">
+          <div class="flex items-center mt-2 space-x-2 text-gray-600">
+            <!-- <icon class="text-gray-400 w-4 h-4" name="uil:map-marker" /> -->
+            <span>Tokyo, Japan 東京</span>
+          </div><div class="flex items-center mt-2 space-x-2 text-gray-600">
+            <!-- <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" /> -->
+            <!-- <a
+              href="mailto:hello@astroshipstarter.com"
+              >joe@baldmanbra.com</a
+            > -->
+          </div>
+          <div class="flex items-center mt-2 space-x-2 text-gray-600">
+
+            <!-- <Icon class="text-gray-400 w-4 h-4" name="uil:phone" /> -->
+            <!-- <a href="tel:+1 (987) 4587 899">+1 (987) 4587 899</a
+            > -->
+          </div>
+        </div>
+      </div>
+      <div>
+        <Contactform />
+      </div>
+    </div>
+
+
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  #main-content {
+    @apply mx-auto max-w-4xl pt-12;
+  }
+  .main-wrapper {
+    @apply mb-14 flex flex-col items-center justify-center p-4;
+  }
+  .main-wrapper h1 {
+    @apply text-4xl font-bold text-skin-accent;
+  }
+  .main-wrapper p {
+    @apply mt-4 text-2xl sm:text-3xl;
+  }
+</style>

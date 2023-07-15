@@ -13,9 +13,9 @@ module.exports = {
   theme: {
     // Remove the following screen breakpoint or add other breakpoints
     // if one breakpoint is not enough for you
-    screens: {
-      sm: "640px",
-    },
+    // screens: {
+    //   sm: "640px",
+    // },
 
     // Uncomment the following extend
     // if existing Tailwind color palette will be used
@@ -26,6 +26,9 @@ module.exports = {
         base: withOpacity("--color-text-base"),
         accent: withOpacity("--color-accent"),
         inverted: withOpacity("--color-fill"),
+        white:withOpacity("--color-white"),
+        daypurp:withOpacity("--color-daypurp"),
+        slate:withOpacity("--color-slate")
       },
     },
     backgroundColor: {
@@ -35,6 +38,8 @@ module.exports = {
         inverted: withOpacity("--color-text-base"),
         card: withOpacity("--color-card"),
         "card-muted": withOpacity("--color-card-muted"),
+        white:withOpacity("--color-white"),
+        slate:withOpacity("--color-slate")
       },
     },
     outlineColor: {
@@ -53,6 +58,7 @@ module.exports = {
       skin: {
         base: withOpacity("--color-text-base"),
         accent: withOpacity("--color-accent"),
+        white:withOpacity("--color-white"),
       },
       transparent: "transparent",
     },

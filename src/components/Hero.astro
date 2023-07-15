@@ -1,0 +1,96 @@
+---
+import bmbsquare from "/assets/bmbsquare.webp";
+import bmbmobile from "/assets/widebmbmobile.webp";
+---
+<section class="grid lg:grid-cols-2 place-items-center md:pb-24 mt-8 lg:mt-12 lg:pt-8 lg:place-items-start">
+
+  <div class="py-6 lg:order-1 sm:flex hidden w-full items-center justify-center">
+      <!-- Animated Logo -->
+  <figure>
+    <section class="img-bg" />
+          <img
+          id="bmb"
+          class="w-full aspect-square bg-cover bg-center h-72"
+          src={bmbsquare}
+          alt="Bald Man Brands"
+        />
+  </figure>
+  <!-- / -->
+  </div>
+
+<div class="lg:text-left sm:text-center text-left">
+<h1 class="font-extrabold text-3xl sm:text-4xl lg:text-5xl tracking-tight lg:tracking-tighter">Bald Man Brands</h1>
+<h2
+class="text-3xl lg:text-4xl xl:text-5xl tracking-tight lg:tracking-tighter font-extrabold leading-normal text-skin-accent ">
+really fast websites
+</h2>
+  <p class="text-lg mt-4 max-w-xl leading-relaxed md:text-lg">
+    Boutique web development and digital marketing from Japan.<wbr> Hand-coded websites and data-driven ad campaigns that outperform and outshine.
+  </p>
+
+<!-- Mobile Image -->
+<div class="py-6 sm:hidden block">
+<img
+  class="w-full rounded-lg aspect-video bg-cover bg-center"
+  src={bmbmobile}
+  alt="Bald Man Brands"
+/>
+</div>
+<!-- / Mobile Image  -->
+
+
+<div class="sm:mt-6 mt-2 flex flex-col sm:flex-row gap-3 sm:justify-center lg:justify-start">
+  <a class="inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-skin-card hover:bg-skin-card-muted text-skin-white" href="/about"><span>See How</span></a>
+  <a class="inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-skin-card hover:bg-skin-card-muted text-skin-white" href="/contact"><span>Start for Free<!-- --> <span aria-hidden="true" class="hidden text-slate-400 sm:inline">→</span></span></a>
+</div>
+
+</div>
+</section>
+
+
+<!-- Old Hero Section
+
+
+<section id="hero">
+  <h1>Mingalaba</h1>
+  <a
+    target="_blank"
+    href="/rss.xml"
+    class="rss-link"
+    aria-label="rss feed"
+    title="RSS Feed"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
+      ><path
+        d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
+      ></path><path
+        d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
+      ></path><circle cx="6" cy="18" r="2"></circle>
+    </svg>
+  </a>
+
+  <p>
+    AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
+    blog theme. This theme follows best practices and provides accessibility
+    out of the box. Light and dark mode are supported by default. Moreover,
+    additional color schemes can also be configured.
+  </p>
+  <p>
+    Read the blog posts or check
+    <LinkButton
+      className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
+      href="https://github.com/satnaing/astro-paper#readme"
+    >
+      README
+    </LinkButton> for more info.
+  </p>
+  {
+    // only display if at least one social link is enabled
+    socialCount > 0 && (
+      <div class="social-wrapper">
+        <div class="social-links">Social Links:</div>
+        <Socials />
+      </div>
+    )
+  }
+</section> -->
