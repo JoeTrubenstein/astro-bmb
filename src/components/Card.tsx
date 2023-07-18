@@ -57,7 +57,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
             href={href}
             className="text-primary-600 dark:text-primary-500 inline-flex items-center font-medium hover:underline"
           >
-            Read more
+            Full article
             <svg
               className="ml-2 h-4 w-4"
               fill="currentColor"
