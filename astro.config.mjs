@@ -6,7 +6,7 @@ import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
 
-import vercel from "@astrojs/vercel/serverless";
+// import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
@@ -21,7 +21,7 @@ export default defineConfig({
       test: "Table of contents"
     }]],
     shikiConfig: {
-      theme: "one-dark-pro",
+      theme: "nord",
       wrap: true
     },
     extendDefaultPlugins: true
@@ -31,6 +31,4 @@ export default defineConfig({
       exclude: ["@resvg/resvg-js"]
     }
   },
-  output: "server",
-  adapter: vercel()
 });

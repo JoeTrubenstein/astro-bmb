@@ -1,9 +1,8 @@
 ---
 import { getCollection } from "astro:content";
-// import Header from "@components/Header.astro";
+import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import Layout from "@layouts/Layout.astro";
-import Main from "@layouts/Main.astro";
 import Tag from "@components/Tag.astro";
 import getUniqueTags from "@utils/getUniqueTags";
 import { SITE } from "@config";
@@ -14,11 +13,38 @@ let tags = getUniqueTags(posts);
 ---
 
 <Layout title={`Tags | ${SITE.title}`}>
-  <!-- <Header activeNav="tags" /> -->
-  <Main pageTitle="Tags" pageDesc="All the tags used in posts.">
+  <Header activeNav="tags" />
+
+
+  <main id="main-content">
+    <div class="main-wrapper">
+      <h1 aria-label="About">Tags</h1>
+      <p class="text-center mb-12">All the topics of discussion</p>
+
     <ul>
       {tags.map(tag => <Tag name={tag} size="lg" />)}
     </ul>
+
+    </div>
+    </main>
+
+
   </Main>
   <Footer />
 </Layout>
+
+<style>
+  #main-content {
+    @apply mx-auto max-w-4xl pt-12;
+  }
+  .main-wrapper {
+    @apply mb-14 flex flex-col items-center justify-center p-4;
+  }
+  .main-wrapper h1 {
+    @apply text-4xl font-bold text-skin-accent;
+  }
+  .main-wrapper p {
+    @apply mt-4 text-2xl sm:text-3xl;
+  }
+</style>
+

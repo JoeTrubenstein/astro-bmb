@@ -1,0 +1,87 @@
+---
+import { SITE } from "@config";
+import Layout from "@layouts/Layout.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import Card from "@components/Card";
+import LinkButton from "@components/LinkButton.astro";
+import slugify from "@utils/slugify";
+import type { CollectionEntry } from "astro:content";
+
+export interface Props {
+  pageNum: number;
+  totalPages: number;
+  posts: CollectionEntry<"blog">[];
+}
+
+const { pageNum, totalPages, posts } = Astro.props;
+
+const prev = pageNum > 1 ? "" : "disabled";
+const next = pageNum < totalPages ? "" : "disabled";
+---
+
+<Layout title={`Posts | ${SITE.title}`}>
+  <Header activeNav="blog" />
+
+
+  <main id="main-content">
+    <div class="main-wrapper">
+      <h1 aria-label="Blog">Blog</h1>
+      <p class="text-center mb-12">Code, content, and commentary</p>
+
+
+
+            <div class="grid gap-8 lg:grid-cols-2">
+              {
+                posts.length > 0 && (
+                  <>
+                        {posts.map(({ data }) => (
+                          <Card
+                            href={`/blog/${slugify(data)}`}
+                            frontmatter={data}
+                            secHeading={false}
+                          />
+                        ))}
+                  </>
+                )
+              } 
+            </div>  
+
+    
+    
+    
+
+
+
+
+
+      </div>
+  </main>
+  <Footer noMarginTop={totalPages > 1} />
+</Layout>
+
+<style>
+  .pagination-wrapper {
+    @apply mb-8 mt-auto flex justify-center;
+  }
+  .disabled {
+    @apply pointer-events-none select-none opacity-50 hover:text-skin-base group-hover:fill-skin-base;
+  }
+  .disabled-svg {
+    @apply group-hover:!fill-skin-base;
+  }
+
+  #main-content {
+    @apply mx-auto max-w-6xl pt-12;
+  }
+  .main-wrapper {
+    @apply mb-14 flex flex-col items-center justify-center p-4;
+  }
+  .main-wrapper h1 {
+    @apply text-4xl font-bold text-skin-accent;
+  }
+  .main-wrapper p {
+    @apply mt-4 text-2xl sm:text-3xl;
+  }
+
+</style>

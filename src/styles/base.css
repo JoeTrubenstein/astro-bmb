@@ -34,9 +34,13 @@
   html[data-theme="dark"] #sun-svg {
     display: block;
   }
-  
+
+  html, body {
+    @apply w-screen m-0 p-0 overflow-x-hidden
+  }
+
   body {
-    @apply flex min-h-screen flex-col bg-skin-fill font-mono text-skin-base 
+    @apply flex min-h-screen w-screen flex-col bg-skin-fill font-mono text-skin-base 
     selection:bg-skin-accent selection:bg-opacity-70 selection:text-skin-inverted;
   }
   section,
@@ -65,8 +69,8 @@
     prose-strong:!text-skin-base
 
     
-    prose-code:rounded prose-code:bg-skin-card 
-    prose-code:bg-opacity-75 prose-code:p-1 prose-code:!text-skin-base 
+    prose-code:rounded prose-code:bg-skin-accent
+    prose-code:bg-opacity-75 prose-code:p-1 prose-code:!text-skin-white 
     prose-code:before:!content-[''] prose-code:after:!content-['']
     prose-pre:!text-skin-base prose-ol:!text-skin-base 
     prose-ul:overflow-x-clip prose-ul:!text-skin-base prose-li:marker:!text-skin-accent

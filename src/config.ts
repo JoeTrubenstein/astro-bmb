@@ -7,7 +7,7 @@ export const SITE: Site = {
   title: "Bald Man Brands",
   ogImage: "widebmb.webp",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 5,
 };
 
 export const LOCALE = ["en-EN"]; // set to [] to use the environment default
