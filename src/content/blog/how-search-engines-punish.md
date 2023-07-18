@@ -10,7 +10,7 @@ tags:
 description: What good is great content, killer branding, and an awesome product - if no one will wait around for it to load? Learn how poor page performance could get you sent to the back of the SEO line.
 ---
 
-Page speed has been an important SEO factor for over a decade. While the true nature of "The Algorithm" may forever be a topic of debate - there are still plenty of published guidelines for appeasing the bots that visit our online homes.
+Page speed has been an important SEO factor for over a decade. While the true nature of "The Algorithm" may forever be a topic of debate - choosing to ignore load times could earn you a painful page rank demotion.
 
 ![Introducing AstroPaper 2.0](/assets/rage.webp)
 
