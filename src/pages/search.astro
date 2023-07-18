@@ -2,7 +2,6 @@
 import { getCollection } from "astro:content";
 import { SITE } from "@config";
 import Layout from "@layouts/Layout.astro";
-import Main from "@layouts/Main.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import SearchButton from "@components/SearchButton";
@@ -22,8 +21,28 @@ const searchList = posts.map(({ data }) => ({
 
 <Layout title={`Search | ${SITE.title}`}>
   <Header activeNav="search" />
-  <Main pageTitle="Search" pageDesc="Search any article ...">
+  <main id="main-content">
+    <div class="main-wrapper">
+      <h1 aria-label="About">Search</h1>
+      <p class="text-center">Search inside blog posts</p>
     <SearchButton client:load searchList={searchList} />
-  </Main>
+    </div>
+    </main>
+
   <Footer />
 </Layout>
+
+<style>
+  #main-content {
+    @apply mx-auto max-w-4xl pt-12;
+  }
+  .main-wrapper {
+    @apply mb-14 flex flex-col items-center justify-center p-4;
+  }
+  .main-wrapper h1 {
+    @apply text-4xl font-bold text-skin-accent;
+  }
+  .main-wrapper p {
+    @apply mt-4 text-2xl sm:text-3xl mb-12;
+  }
+</style>

@@ -16,7 +16,9 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
         <div className="text-gray-500 mb-5 flex items-center justify-between">
           <span className=" inline-flex items-center rounded px-2.5 py-0.5 text-sm font-medium">
             {tags.map(tag => (
-              <a href={`/tags/${tag}`}>#{tag}&nbsp;</a>
+              <a key={description} href={`/tags/${tag}`}>
+                #{tag}&nbsp;
+              </a>
             ))}
           </span>
           <span className="text-sm">
@@ -48,7 +50,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
 
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            {/* <img className="w-7 h-7 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Leos avatar" /> */}
+            {/* <img className="w-7 h-7 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jesse Leos avatar" /> */}
             <span className="dark:text-white font-medium">{author}</span>
           </div>
           <a
