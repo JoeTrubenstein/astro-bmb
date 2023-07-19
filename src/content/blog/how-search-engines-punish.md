@@ -24,23 +24,23 @@ There was a point in the not-too-distant past where having to wait for flash ani
 
 Today, page speed is no longer just a luxury - it's become a critical factor in determining a website's ranking in search engine results.
 
-Google is surprisingly transparent when it comes to publicizing their SEO guidelines, and they've formally announced on more than one occasion, that page speed plays an important role in their overall judgment of a website.
+Google is perhaps surprisingly transparent when it comes to publicizing their SEO guidelines, and they've formally announced on more than one occasion, that page speed plays an important role in their overall judgment of a website.
 
 - [First in 2010](https://developers.google.com/search/blog/2010/04/using-site-speed-in-web-search-ranking)
 - [Then in 2018 to include mobile devices](https://developer.chrome.com/blog/search-ads-speed/)
-- [And again in 2023 to address controversy around the system](https://developers.google.com/search/docs/appearance/page-experience)
+- [And again in 2023 to address a controversy](https://developers.google.com/search/docs/appearance/page-experience)
 
-The system is controversial because despite often being sold as a kind of creative strategy - a huge part of SEO is really just following a set of published rules. So when the rules start getting muddled, people selling SEO strategies start punching the air.
+SEO is sometimes controversial because despite often being sold as a kind of creative strategy - a huge part of SEO is really just following a set of [published rules](https://developers.google.com/search/docs/fundamentals/seo-starter-guide). So when the rules start getting muddled, people selling SEO strategies start punching the air.
 
 <blockquote><p>You spent your SEO life as &quot;Technical SEO&quot; and chasing goals that Google gave you as little carrots over a decade via &quot;trusted influencers&quot;,<br><br>like<br>- page speed<br>- mobile friendlieness<br>- SSL <br>- and other technical implementation details that helped Google to crawl better... <br><br>...then Google says: <br><br>Nah, know what? Doesn't matter anymore.<br>"Congratulations."
 
 &mdash;Christoph C. Cemper 🇺🇦 🧡 AIPRM (@cemper)&nbsp;<a href="https://twitter.com/cemper/status/1649736700371906562?ref_src=twsrc%5Etfw">April 22, 2023</a></p></blockquote>
 
-And While the true nature of "The Algorithm" may forever be a topic of debate - there are still plenty of [published guidelines](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) for appeasing the bots that visit our online homes.
-
 ## The current state of page speed and SEO
 
 As it stands today, speed is still undeniably a major consideration for search engines.
+
+Users have little patience when it comes to slow websites, and we shouldn't expect our bot visitors to feel too differently.
 
 There a lot of statistics thrown around, but the two most often-repeated bits of trivia go something like this:
 
@@ -105,13 +105,13 @@ Server response time is the amount of time it takes for your server to respond t
 
 To remedy this, you may need to look into upgrading your hosting plan, as well as seeing if your database can be optimized.
 
-## Hiring a Web Developer or Digital Marketing Specialist
+## Hiring a Web Developer to speed up your site
 
 Does reading about this stuff give you a headache?
 
 Sometimes the easiest way to improve page speed is to simply hire someone else to do it.
 
-A professional web developer or digital marketing specialist can help you identify exactly what is negatively affecting your website performance and provide you with the best solutions to optimize the website speed. They can also provide ongoing maintenance and support to ensure that your website stays fast and responsive.
+A professional web developer can help you identify exactly what is negatively affecting your website performance and provide you with the best solutions to optimize the website speed. They can also provide ongoing maintenance and support to ensure that your website stays fast and responsive.
 
 At the end of the day, a poorly performing website will serve only to frustrate users, damage your SEO, and ultimately kill your conversions.
 
