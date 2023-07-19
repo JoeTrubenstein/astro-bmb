@@ -32,9 +32,9 @@ Google is surprisingly transparent when it comes to publicizing their SEO guidel
 
 The system is controversial because despite often being sold as a kind of creative strategy - a huge part of SEO is really just following a set of published rules. So when the rules start getting muddled, people selling SEO strategies start punching the air.
 
-<div class="flex items-center justify-center w-full">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Time to look for a new job for some SEOs.<br><br>You spent your SEO life as &quot;Technical SEO&quot; and chasing goals that Google gave you as little carrots over a decade via &quot;trusted influencers&quot;,<br><br>like<br>- page speed<br>- mobile friendlieness<br>- SSL <br>- and other technical implementation details… <a href="https://t.co/QgoycCHcSO">pic.twitter.com/QgoycCHcSO</a></p>&mdash; Christoph C. Cemper 🇺🇦 🧡 AIPRM (@cemper) <a href="https://twitter.com/cemper/status/1649736700371906562?ref_src=twsrc%5Etfw">April 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+<blockquote><p>You spent your SEO life as &quot;Technical SEO&quot; and chasing goals that Google gave you as little carrots over a decade via &quot;trusted influencers&quot;,<br><br>like<br>- page speed<br>- mobile friendlieness<br>- SSL <br>- and other technical implementation details that helped Google to crawl better... <br><br>...then Google says: <br><br>Nah, know what? Doesn't matter anymore.<br>"Congratulations."
+
+&mdash;Christoph C. Cemper 🇺🇦 🧡 AIPRM (@cemper)&nbsp;<a href="https://twitter.com/cemper/status/1649736700371906562?ref_src=twsrc%5Etfw">April 22, 2023</a></p></blockquote>
 
 And While the true nature of "The Algorithm" may forever be a topic of debate - there are still plenty of [published guidelines](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) for appeasing the bots that visit our online homes.
 
