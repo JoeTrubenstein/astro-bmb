@@ -42,7 +42,7 @@ As it stands today, speed is still undeniably a major consideration for search e
 
 Users have little patience when it comes to slow websites, and we shouldn't expect our bot visitors to feel too differently.
 
-There a lot of statistics thrown around, but the two most often-repeated bits of trivia go something like this:
+There are a lot of statistics thrown around, but the two most often-repeated bits of trivia go something like this:
 
 - Users will leave any website that doesn't load in under three seconds.
 - The average website takes fifteen seconds to load completely.
