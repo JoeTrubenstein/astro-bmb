@@ -102,6 +102,7 @@
   }
 
   /* ===== scrollbar ===== */
+  /* Check inside the original git for this! */
   html {
     overflow-y: scroll;
   }
@@ -134,4 +135,8 @@
   .focus-outline {
     @apply outline-2 outline-offset-1 outline-skin-fill focus-visible:no-underline focus-visible:outline-dashed;
   }
+}
+
+.progress-bar {
+  @apply bg-skin-accent text-skin-accent
 }
