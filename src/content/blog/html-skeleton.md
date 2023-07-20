@@ -11,7 +11,9 @@ tags:
 description: When you think of web development, do skeletons come to mind? As it turns out, all websites have a kind of underlying bone structure that keeps the whole thing together.
 ---
 
-![Introducing AstroPaper 2.0](/assets/skull.webp)
+When you think of web development, do skeletons come to mind? As it turns out, all websites have a kind of underlying bone structure that keeps the whole thing together.
+
+![HTML Skelton playing the trumpet](/assets/skull.webp)
 
 ## Table of contents
 
@@ -23,7 +25,7 @@ The only way to truly customize one's MySpace page was to [inject your own code]
 
 ```html
 <img
-  src="me_wearing_makeup.jpg"
+  src="me_with_lip_piercing.jpg"
   alt="future bald man"
   width="500"
   height="600"
