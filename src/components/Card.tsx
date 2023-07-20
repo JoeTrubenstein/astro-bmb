@@ -29,7 +29,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
 
         <div className="mb-2">
           <img
-            className="aspect-video rounded object-cover"
+            className="aspect-video w-full rounded object-cover"
             src={ogImage}
           ></img>
         </div>
