@@ -64,7 +64,7 @@ module.exports = {
       transparent: "transparent",
     },
     fontFamily: {
-      mono: ["IBM Plex Mono", "monospace"],
+      mono: ["Roboto Mono Variable", "monospace"],
       sans: ["ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont"]
     },
     // },

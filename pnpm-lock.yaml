@@ -11,6 +11,9 @@ dependencies:
   '@astrojs/vercel':
     specifier: ^3.7.2
     version: 3.7.2(astro@2.8.3)(react@18.2.0)
+  '@fontsource-variable/roboto-mono':
+    specifier: ^5.0.6
+    version: 5.0.6
   '@resvg/resvg-js':
     specifier: ^2.4.1
     version: 2.4.1
@@ -989,6 +992,10 @@ packages:
     resolution: {integrity: sha512-ElyB54bJIhXQYVKjDSvCkPO1iU1tSAeVQJbllWJq1XQSmmA4dgFk8CbiBGpiOPxleE48vDogxCtmMYku4HSVLA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
+
+  /@fontsource-variable/roboto-mono@5.0.6:
+    resolution: {integrity: sha512-n2TfINPd+mycq6husov36SWO6v1/dKDhxNf6LtB7mKrCtBjWyTAJiC1qjiRmYT4I69/cNQZhlu3Jd+f+JQIR6g==}
+    dev: false
 
   /@humanwhocodes/config-array@0.11.10:
     resolution: {integrity: sha512-KVVjQmNUepDVGXNuoRRdmmEjruj0KfiGSbS8LVc12LMsWDQzRXJ0qdhN8L8uUigKpfEHRhlaQFY0ib1tnUbNeQ==}

@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import Header from "@components/Header.astro";
+// import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import Layout from "@layouts/Layout.astro";
 import Tag from "@components/Tag.astro";
@@ -13,7 +13,7 @@ let tags = getUniqueTags(posts);
 ---
 
 <Layout title={`Tags | ${SITE.title}`}>
-  <Header activeNav="tags" />
+  <!-- <Header activeNav="tags" /> -->
 
 
   <main id="main-content">

@@ -18,6 +18,7 @@
   "dependencies": {
     "@astrojs/rss": "^2.4.1",
     "@astrojs/vercel": "^3.7.2",
+    "@fontsource-variable/roboto-mono": "^5.0.6",
     "@resvg/resvg-js": "^2.4.1",
     "astro": "^2.8.3",
     "framer-motion": "^10.12.22",
