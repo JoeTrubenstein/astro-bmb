@@ -6,9 +6,9 @@ import Footer from "@components/Footer.astro";
 // import LinkButton from "@components/LinkButton.astro";
 ---
 
-<Layout 
-title={`About Me | ${SITE.title}`}
-description="I make really fast websites. If you want to build high-performance sites that cut through the clutter, I can show you how."
+<Layout
+  title={`About Me | ${SITE.title}`}
+  description="I make really fast websites. If you want to build high-performance sites that cut through the clutter, I can show you how."
 >
   <Header activeNav="about" />
 
@@ -17,41 +17,56 @@ description="I make really fast websites. If you want to build high-performance 
       <h1 aria-label="About">About me</h1>
       <p class="text-center">I make really fast websites</p>
 
-
-
-        <div class="mx-auto max-w-4xl mt-16 text-left">
-          <h2 class="font-bold text-3xl text-gray-800">
-            Page builders in 2023 are awesome.
-          </h2>
-          <p class="text-lg text-left leading-relaxed">
-            Nearly anyone can design a functioning and fashionable website for basically free.
-          </p>
-          <p class="text-lg text-left leading-relaxed">
-            The problem is that no-code tools can quickly paint non-programmers into a corner.
-          </p>
-          <p class="text-lg text-left leading-relaxed">
-           Bloated file sizes, clunky designs, and slow servers - kill conversions.
-          </p>
-          <p class="text-lg text-left leading-relaxed">
-            Poor user experiences torpedo your traffic, and damage your <a class="text-skin-accent" href="/blog/how-search-engines-punish"> credibility with Google</a>.
-          </p>
-          <p class="text-lg text-left leading-relaxed">
-            Google punishes bad websites by ranking them lower, while visitors simply cringe and leave.
-          </p>
-           <p class="text-lg text-left leading-relaxed">
-            If you want to build high-performance sites that cut through the clutter, I can show you how.
-           </p>
-        </div>
-          <div class="mt-4 text-center">
-            <a class="mt-8 inline-flex justify-center rounded-lg text-sm font-bold py-3 px-4 bg-skin-card hover:bg-skin-card-muted text-skin-white" href="/contact"><span>Start for Free<!-- --> <span aria-hidden="true" class="hidden text-slate-400 sm:inline">→</span></span></a>
-          </div>
-        </div>
+      <div class="mx-auto max-w-4xl mt-16 text-left">
+        <h2 class="font-bold text-3xl text-gray-800">
+          Page builders in 2023 are awesome.
+        </h2>
+        <p class="text-lg text-left leading-relaxed">
+          Nearly anyone can design a functioning and fashionable website for
+          basically free.
+        </p>
+        <p class="text-lg text-left leading-relaxed">
+          The problem is that no-code tools can quickly paint non-programmers
+          into a corner.
+        </p>
+        <p class="text-lg text-left leading-relaxed">
+          Bloated file sizes, clunky designs, and slow servers - kill
+          conversions.
+        </p>
+        <p class="text-lg text-left leading-relaxed">
+          Poor user experiences torpedo your traffic, and damage your <a
+            class="text-skin-accent"
+            href="/blog/how-search-engines-punish"
+          >
+            credibility with Google</a
+          >.
+        </p>
+        <p class="text-lg text-left leading-relaxed">
+          Google punishes bad websites by ranking them lower, while visitors
+          simply cringe and leave.
+        </p>
+        <p class="text-lg text-left leading-relaxed">
+          If you want to build high-performance sites that cut through the
+          clutter, I can show you how.
+        </p>
+      </div>
+      <div class="mt-4 text-center">
+        <a
+          class="mt-8 inline-flex justify-center rounded-lg text-sm font-bold py-3 px-4 bg-skin-card hover:bg-skin-card-muted text-skin-white"
+          href="/contact"
+          ><span
+            >Start for Free<!-- -->
+            <span aria-hidden="true" class="hidden text-slate-400 sm:inline"
+              >→</span
+            ></span
+          ></a
+        >
       </div>
     </div>
   </main>
-
-  <Footer />
 </Layout>
+
+<Footer />
 
 <style>
   #main-content {
