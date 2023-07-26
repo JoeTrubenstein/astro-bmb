@@ -69,9 +69,15 @@ Imagine you are coding the website below. Even with little or no experience, you
       <h1>Really Fast Websites</h1>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
