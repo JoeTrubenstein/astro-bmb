@@ -15,7 +15,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
       <article className="bg-white rounded-lg border border-skin-line p-6 shadow-md">
         <div className="text-gray-500 mb-5 flex items-center justify-between">
           <span className=" inline-flex items-center rounded px-2.5 py-0.5 text-sm font-medium">
-            {tags.map(tag => (
+            {tags.map((tag) => (
               <a key={description} href={`/tags/${tag}`}>
                 #{tag}&nbsp;
               </a>
@@ -34,18 +34,18 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
           ></img>
         </div>
 
-        <div className="overflow-hidden sm:h-48 lg:mb-4">
+        <div className="lg:mb-4">
           {secHeading ? (
-            <h2 className="mb-2 text-2xl font-bold tracking-tight text-skin-accent">
+            <h2 className="mb-2 text-xl font-bold tracking-tight text-skin-accent">
               <a href={href}>{title}</a>
             </h2>
           ) : (
-            <h2 className="mb-2 text-2xl font-bold tracking-tight text-skin-accent">
+            <h2 className="mb-2 text-xl font-bold tracking-tight text-skin-accent">
               <a href={href}>{title}</a>
             </h2>
           )}
 
-          <p className="mb-5 text-skin-soft">{description}</p>
+          <p className="mb-5 line-clamp-3 text-skin-soft">{description}</p>
         </div>
 
         <div className="flex items-center justify-between">

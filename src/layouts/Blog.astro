@@ -16,45 +16,32 @@ export interface Props {
 
 // pageNum
 const { totalPages, posts } = Astro.props;
-
 ---
 
 <Layout title={`Posts | ${SITE.title}`}>
   <Header activeNav="blog" />
-
 
   <main id="main-content">
     <div class="main-wrapper">
       <h1 aria-label="Blog">Blog</h1>
       <p class="text-center mb-12">Code, content, and commentary</p>
 
-
-
-            <div class="grid gap-8 lg:grid-cols-2">
-              {
-                posts.length > 0 && (
-                  <>
-                        {posts.map(({ data }) => (
-                          <Card
-                            href={`/blog/${slugify(data)}`}
-                            frontmatter={data}
-                            secHeading={false}
-                          />
-                        ))}
-                  </>
-                )
-              } 
-            </div>  
-
-    
-    
-    
-
-
-
-
-
+      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          posts.length > 0 && (
+            <>
+              {posts.map(({ data }) => (
+                <Card
+                  href={`/blog/${slugify(data)}`}
+                  frontmatter={data}
+                  secHeading={false}
+                />
+              ))}
+            </>
+          )
+        }
       </div>
+    </div>
   </main>
   <Footer noMarginTop={totalPages > 1} />
 </Layout>
@@ -82,5 +69,4 @@ const { totalPages, posts } = Astro.props;
   .main-wrapper p {
     @apply mt-4 text-2xl sm:text-3xl;
   }
-
 </style>
