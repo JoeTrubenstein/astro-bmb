@@ -87,7 +87,7 @@ Astro has been gaining popularity lately, not just as another JavaScript framewo
 First we'll need a blank Astro project to get started.
 
 ```bash
-pnpm create astro@latest
+npm create astro@latest
 ```
 
 As soon as you run this command, an adorable ASCII robot will appear to guide you through the installation.
