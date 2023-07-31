@@ -159,6 +159,7 @@ Just be mindful not to install globally, as it can create issues down the road.
 ```bash
 npm i graphql
 npm i -D typescript @graphql-codegen/cli
+npm i -D @graphql-codegen/introspection
 ```
 
 Then we'll start Codegen's init process.
