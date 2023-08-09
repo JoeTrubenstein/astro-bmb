@@ -2,46 +2,69 @@
 import bmbsquare from "/assets/happybmb.webp";
 import bmbmobile from "/assets/widebmbmobile.webp";
 ---
-<section class="grid lg:grid-cols-2 place-items-center md:pb-24 mt-8 lg:mt-12 lg:pt-8 lg:place-items-start">
 
-  <div class="py-6 lg:order-1 sm:flex hidden w-full items-center justify-center">
-      <!-- Animated Logo -->
-  <figure>
-    <section class="img-bg" />
-          <img
-          id="bmb"
-          class="aspect-square h-72 w-72"
-          src={bmbsquare}
+<section
+  class="grid lg:grid-cols-2 place-items-center md:pb-12 mt-8 lg:pt-8 lg:place-items-start"
+>
+  <!-- Desktop image -->
+  <div
+    class="py-6 lg:order-1 sm:flex hidden w-full items-center justify-center"
+  >
+    <img
+      id="bmb"
+      class="aspect-square h-72 w-72"
+      src={bmbsquare}
+      alt="Bald Man Brands"
+    />
+  </div>
+  <!--  -->
+
+  <!-- Hero text and buttons group -->
+  <div class="sm:py-6">
+    <div class="lg:text-left sm:text-center text-left">
+      <h1
+        class="font-bold text-3xl sm:text-4xl lg:text-5xl tracking-tight lg:tracking-tighter"
+      >
+        Bald Man Brands
+      </h1>
+      <h2
+        class="text-3xl lg:text-4xl xl:text-5xl tracking-tighter font-bold leading-normal text-skin-accent"
+      >
+        really fast websites
+      </h2>
+      <p
+        class="text-lg mt-4 max-w-xl leading-relaxed md:text-lg text-skin-soft"
+      >
+        Boutique web development and digital marketing from Japan.<wbr /> Hand-coded
+        websites and data-driven ad campaigns that outperform and outshine.
+      </p>
+
+      <!-- Mobile Image -->
+      <div class="py-6 sm:hidden block">
+        <img
+          class="w-full rounded-lg aspect-video bg-cover bg-center"
+          src={bmbmobile}
           alt="Bald Man Brands"
         />
-  </figure>
-  <!-- / -->
+      </div>
+      <!--  -->
+
+      <div class="sm:mt-6 mt-2 flex flex-col sm:flex-row gap-3 sm:justify-center lg:justify-start">
+        <a
+          class="inline-flex justify-center rounded-lg text-sm font-bold py-3 px-4 bg-skin-card hover:bg-skin-card-muted text-skin-white"
+          href="/about"><span>See How</span></a
+        >
+        <a
+          class="inline-flex justify-center rounded-lg text-sm font-bold py-3 px-4 bg-skin-card hover:bg-skin-card-muted text-skin-white"
+          href="/contact"
+          ><span
+            >Start for Free
+            <span aria-hidden="true" class="hidden text-slate-400 sm:inline"
+              >→</span
+            ></span
+          ></a
+        >
+      </div>
+    </div>
   </div>
-
-<div class="lg:text-left sm:text-center text-left">
-<h1 class="font-bold text-3xl sm:text-4xl lg:text-5xl tracking-tight lg:tracking-tighter">Bald Man Brands</h1>
-<h2
-class="text-3xl lg:text-4xl xl:text-5xl tracking-tighter font-bold leading-normal text-skin-accent">
-really fast websites
-</h2>
-  <p class="text-lg mt-4 max-w-xl leading-relaxed md:text-lg text-skin-soft">
-    Boutique web development and digital marketing from Japan.<wbr> Hand-coded websites and data-driven ad campaigns that outperform and outshine.
-  </p>
-
-<!-- Mobile Image -->
-<div class="py-6 sm:hidden block">
-<img
-  class="w-full rounded-lg aspect-video bg-cover bg-center"
-  src={bmbmobile}
-  alt="Bald Man Brands"
-/>
-</div>
-
-<!-- / Mobile Image  -->
-<div class="sm:mt-6 mt-2 flex flex-col sm:flex-row gap-3 sm:justify-center lg:justify-start">
-  <a class="inline-flex justify-center rounded-lg text-sm font-bold py-3 px-4 bg-skin-card hover:bg-skin-card-muted text-skin-white" href="/about"><span>See How</span></a>
-  <a class="inline-flex justify-center rounded-lg text-sm font-bold py-3 px-4 bg-skin-card hover:bg-skin-card-muted text-skin-white" href="/contact"><span>Start for Free<!-- --> <span aria-hidden="true" class="hidden text-slate-400 sm:inline">→</span></span></a>
-</div>
-
-</div>
 </section>
